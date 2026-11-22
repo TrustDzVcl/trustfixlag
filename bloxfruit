@@ -9,7 +9,7 @@ local function CreateBtn(name, text, pos)
     return btn
 end
 
-local FixBtn, FPSBtn = CreateBtn("Fix", "Fix Lag: ON", UDim2.new(0.05, 0, 0.1, 0)), CreateBtn("FPS", "FPS: ON", UDim2.new(0.05, 0, 0.55, 0))
+local FixBtn, FPSBtn = CreateBtn("Fix", "FixLag: ON", UDim2.new(0.05, 0, 0.1, 0)), CreateBtn("FPS", "FPS: ON", UDim2.new(0.05, 0, 0.55, 0))
 local gray = Instance.new("ColorCorrectionEffect", Lighting) gray.Saturation = -1
 
 local function ToggleFix(state)
